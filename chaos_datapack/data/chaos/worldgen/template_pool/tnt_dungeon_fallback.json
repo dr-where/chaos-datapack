@@ -1,0 +1,46 @@
+{
+  "name": "chaos:tnt_dungeon_fallback",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "chaos:tnt_dungeon/fallback/tnt_dungeon_fallback_down",
+        "processors": "minecraft:empty",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "override_liquid_settings": "ignore_waterlogging"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "chaos:tnt_dungeon/fallback/tnt_dungeon_fallback_up1",
+        "processors": "minecraft:empty",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "override_liquid_settings": "ignore_waterlogging"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "chaos:tnt_dungeon/fallback/tnt_dungeon_fallback_up2",
+        "processors": "minecraft:empty",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "override_liquid_settings": "ignore_waterlogging"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "chaos:tnt_dungeon/fallback/tnt_dungeon_fallback_side",
+        "processors": "minecraft:empty",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "override_liquid_settings": "ignore_waterlogging"
+      }
+    }
+  ]
+}

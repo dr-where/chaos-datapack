@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "chaos:tnt_minecart_trap",
+      "weight": 1
+    },
+    {
+        "structure": "chaos:tnt_minecart_trap_2",
+        "weight": 2
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 4,
+    "separation": 2,
+    "salt": 314159
+  }
+}

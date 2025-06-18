@@ -1,0 +1,16 @@
+{
+  "name": "chaos:tnt_dungeon_er_focal_pool",
+  "fallback": "chaos:tnt_dungeon_er_focal_pool",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "chaos:tnt_dungeon/enormous_room/focal/tnt_dungeon_er_focal1",
+        "processors": "minecraft:empty",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "override_liquid_settings": "ignore_waterlogging"
+      }
+    }
+  ]
+}

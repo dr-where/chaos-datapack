@@ -1,0 +1,26 @@
+{
+  "structures": [
+    {
+      "structure": "chaos:tnt_minecart_trap_crimson",
+      "weight": 1
+    },
+    {
+        "structure": "chaos:tnt_minecart_trap_warped",
+        "weight": 1
+    },
+    {
+      "structure": "chaos:tnt_minecart_trap_wastes",
+      "weight": 1
+    },
+    {
+        "structure": "chaos:tnt_minecart_trap_ssv",
+        "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 4,
+    "separation": 2,
+    "salt": 314159
+  }
+}

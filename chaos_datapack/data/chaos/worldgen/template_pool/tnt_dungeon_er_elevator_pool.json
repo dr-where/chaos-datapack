@@ -1,0 +1,26 @@
+{
+  "name": "chaos:tnt_dungeon_er_elevator_pool",
+  "fallback": "chaos:tnt_dungeon_er_elevator_pool",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "chaos:tnt_dungeon/enormous_room/elevator/tnt_dungeon_er_ladder",
+        "processors": "minecraft:empty",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "override_liquid_settings": "ignore_waterlogging"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "chaos:tnt_dungeon/enormous_room/elevator/tnt_dungeon_er_stairs",
+        "processors": "minecraft:empty",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "override_liquid_settings": "ignore_waterlogging"
+      }
+    }
+  ]
+}

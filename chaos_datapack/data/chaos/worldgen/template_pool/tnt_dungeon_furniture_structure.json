@@ -1,0 +1,56 @@
+{
+  "name": "chaos:tnt_dungeon_furniture_structure",
+  "fallback": "chaos:tnt_dungeon_furniture_structure",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "chaos:tnt_dungeon/furniture/tnt_dungeon_brazier",
+        "processors": "minecraft:empty",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "override_liquid_settings": "ignore_waterlogging"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "chaos:tnt_dungeon/furniture/tnt_dungeon_chest_pedestal",
+        "processors": "minecraft:empty",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "override_liquid_settings": "ignore_waterlogging"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "chaos:tnt_dungeon/furniture/tnt_dungeon_pillar_large",
+        "processors": "minecraft:empty",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "override_liquid_settings": "ignore_waterlogging"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "chaos:tnt_dungeon/furniture/tnt_dungeon_pillar_medium",
+        "processors": "minecraft:empty",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "override_liquid_settings": "ignore_waterlogging"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "chaos:tnt_dungeon/furniture/tnt_dungeon_pillar_small",
+        "processors": "minecraft:empty",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "override_liquid_settings": "ignore_waterlogging"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "chaos:tnt_dungeon_start",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "chaos:tnt_dungeon/tnt_dungeon_entrance",
+        "processors": "minecraft:empty",
+		    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element",
+        "override_liquid_settings": "ignore_waterlogging"
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "soul_sand_valley",
+  "step": "underground_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "beard_thin",
+  "start_pool": "chaos:tnt_minecart_trap_ssv",
+  "size": 1,
+  "start_height": {
+    "below_top": 40
+  },
+  "max_distance_from_center": 80,
+  "use_expansion_hack": false
+}

@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "chaos:tnt_tower_small",
+      "weight": 3
+    },
+    {
+        "structure": "chaos:tnt_tower_medium",
+        "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 6,
+    "separation": 5,
+    "salt": 951314
+  }
+}

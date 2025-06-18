@@ -1,0 +1,131 @@
+{
+  "temperature_modifier": "none",
+  "carvers": [
+    "minecraft:canyon",
+    "minecraft:cave",
+    "minecraft:cave_extra_underground"
+  ],
+  "creature_spawn_probability": 0.5,
+  "downfall": 0.3,
+  "effects": {
+    "fog_color": 16751518,
+    "foliage_color": 10387789,
+    "grass_color": 10575184,
+    "grass_color_modifier": "none",
+    "music": [
+      {
+        "weight": 1,
+        "data": {
+          "sound": "music.overworld.badlands",
+          "min_delay": 0,
+          "max_delay": 0,
+          "replace_current_music": false
+        }
+      },
+      {
+        "weight": 1,
+        "data": {
+          "sound": "music.overworld.dripstone_caves",
+          "min_delay": 0,
+          "max_delay": 0,
+          "replace_current_music": false
+        }
+      }
+    ],
+    "music_volume": 1,
+    "sky_color": 15059134,
+    "water_color": 14970213,
+    "water_fog_color": 3344647,
+    "particle": {
+      "options": {
+        "type": "minecraft:dust",
+        "color": 11604480,
+        "scale": 0.7
+      },
+      "probability": 0.05
+    }
+  },
+  "features": [
+    [],
+    [
+        "minecraft:lake_lava_surface"
+    ],
+    [],
+    [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
+    [],
+    [],
+    [
+      "minecraft:ore_tuff",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_medium",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "minecraft:ore_gold_extra",
+      "chaos:ore_blob_tnt"
+    ],
+    [],
+    [
+      "minecraft:patch_grass_badlands"
+    ],
+    [
+      "chaos:tnt_log"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "has_precipitation": false,
+  "spawn_costs": {},
+  "spawners": {
+    "axolotls": [],
+    "ambient": [
+      
+    ],
+    "creature": [
+      {
+        "type": "minecraft:rabbit",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:sheep",
+        "weight": 1,
+        "minCount": 2,
+        "maxCount": 4
+      }
+    ],
+    "misc": [],
+    "monster": [
+      {
+        "type": "minecraft:creeper",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:blaze",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "water_ambient": []
+  },
+  "temperature": 1.6
+}
