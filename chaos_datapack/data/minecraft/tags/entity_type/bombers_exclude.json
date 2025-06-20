@@ -1,0 +1,10 @@
+{
+    "values": [
+        "minecraft:player",
+        "minecraft:item",
+        "minecraft:tnt",
+        "minecraft:tnt_minecart",
+        "minecraft:eye_of_ender",
+        "minecraft:falling_block"
+    ]
+}
